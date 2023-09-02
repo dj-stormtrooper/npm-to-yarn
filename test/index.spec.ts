@@ -133,6 +133,16 @@ describe('NPM tests', () => {
       'yarn create react-app ./my-react-app',
       'pnpm create react-app ./my-react-app'
     ],
+    [
+      'npm init react-app@latest',
+      'yarn create react-app',
+      'pnpm create react-app@latest'
+    ],
+    [
+      'npm init react-app@1.0.0',
+      'yarn create react-app@1.0.0',
+      'pnpm create react-app@1.0.0'
+    ],
     // list
     ['npm list', 'yarn list', 'pnpm list'],
     ['npm ls', 'yarn list', 'pnpm ls'],

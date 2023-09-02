@@ -116,6 +116,7 @@ const npmToYarnTable = {
   init (args: string[]) {
     if (args[1] && !args[1].startsWith('-')) {
       args[0] = 'create'
+      args[1] = args[1].replace('@latest', '')
     }
     return args.filter(item => item !== '--scope')
   },
