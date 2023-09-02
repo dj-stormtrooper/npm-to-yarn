@@ -136,7 +136,7 @@ describe('NPM tests', () => {
     [
       'npm init react-app@latest',
       'yarn create react-app',
-      'pnpm create react-app@latest'
+      'pnpm create react-app'
     ],
     [
       'npm init react-app@1.0.0',
